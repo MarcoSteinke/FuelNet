@@ -1,0 +1,23 @@
+{
+  "name": "fuelnet",
+  "version": "1.0.0",
+  "description": "Web Application which fetches gas prices every 5 minutes and provides information about the development of the gas prices with respect to different parameters. It is also able to notify you if a certain gas price is reached. FuelNet will also use the received data (gas prices, weekday, hour) to learn and predict the development of the gas prices.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcoSteinke/FuelNet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcoSteinke/FuelNet/issues"
+  },
+  "homepage": "https://github.com/MarcoSteinke/FuelNet#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  }
+}
